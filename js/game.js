@@ -167,14 +167,14 @@ function reDraw() { // redraw random letter function
             
            if (word.length === 0){//if there are no more letters in word array
                  totalPoints++
-                document.getElementById("points").innerHTML = totalPoints;//changes score
-                //alert("THE ANSWER IS: DOG! YOU WIN!!!");
-                document.getElementById("correct-answer").innerHTML = "DOG";
-
-                document.getElementById("hidden").style.visibility = "visible";
-                document.getElementById("wrong-answer").style.visibility = "hidden";
+                 document.getElementById("points").innerHTML = totalPoints;//changes score
+                 //alert("THE ANSWER IS: DOG! YOU WIN!!!");
+                 
+                 document.getElementById("hidden").style.visibility = "visible";
+                 document.getElementById("wrong-answer").style.visibility = "hidden";
+                 document.getElementById("correct-answer").innerHTML = "DOG";
                 
-                setTimeout(window.location.reload.bind(window.location), 5000);
+                setTimeout(window.location.reload.bind(window.location), 3500);
                 
 
             }
@@ -188,10 +188,10 @@ function reDraw() { // redraw random letter function
                //alert("YOU LOSE!!! TRY AGAIN");
                document.getElementById("hidden2").style.visibility = "visible";
                document.getElementById("wrong-answer").style.visibility = "hidden";
-               document.getElementById("correct-answer").style.visibility = "hidden";
+               //document.getElementById("correct-answer").style.visibility = "hidden";
 
                 //location.reload();
-                setTimeout(window.location.reload.bind(window.location), 5000);
+                setTimeout(window.location.reload.bind(window.location), 3500);
                
             }
             
