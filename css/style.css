@@ -1,0 +1,178 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-fluid {
+    padding-left: 0px;
+}
+
+.gradient-overlay {
+  background:linear-gradient(
+    RGBA(60, 179, 113, .2),
+    RGBA(127, 255, 212, 0)
+   ), url("/images/Book copy.jpg");
+  width:1440px;
+  height:900px;
+  background-size:cover; 
+  background-position:center center; 
+  background-repeat:no-repeat; 
+  
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;    
+    margin-left: 110px;
+    margin-top: 10px;
+}
+
+.flex-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.flex-3 h2 {
+    margin-right: 70px;
+}
+
+.flex-3 p {
+    font-size: 25px;
+    margin-right: 70px;
+
+}
+.canvas-container {
+    width: 1400px;
+}
+
+.flex-canvas {
+    display: flex;
+    justify-content: space-around;
+}
+.score {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+}
+
+.title-bg {
+    height: 120px;
+    width: 1440px;
+    background: linear-gradient(#000000, #222222);    /* box-shadow: 1px 1px 30px 1px RGBA(127, 255, 212, .5); */
+    color: #fff;
+    font-size: 40px;
+    border-radius: .3rem;
+    border-bottom: 5px solid darkgray;
+}
+
+.win {
+    color: #7FFFD4;
+    font-size: 100px;
+    position: absolute;
+    margin-top: 85px;
+    background: linear-gradient(#000000, #222222);
+    width: 600px;
+    height: 400px;
+    padding-top: 90px;
+    padding-left: 40px;
+} 
+.lose {
+    color: red;
+    font-size: 100px;
+    position: absolute;
+    margin-top: 85px;
+    background: linear-gradient(#000000, #222222);
+    width: 600px;
+    height: 400px;
+    padding-top: 90px;
+    padding-left: 30px;
+}
+
+h1 {
+    text-shadow: 1px 3px 7px RGB(127, 255, 212);
+}
+
+h2 {
+font-size: 30px;
+}
+
+canvas {
+    background: linear-gradient(#000000, #222222);
+    margin-bottom: 70px;
+    margin-top: 80px; 
+    border: 5px solid darkgrey;
+}
+
+.answer-div {
+    height:80px;
+    margin-bottom: 30px;
+    width: 200px;
+}
+.wrong-div {
+    height:80px;
+    margin-bottom: 30px;
+    width: 200px;
+}
+
+.correct-answer {
+    color: #7FFFD4;
+    font-size: 60pt;
+    margin-top: 50px;
+    text-shadow: -1px 0 black, 0 3px black, 3px 0 black, 0 -1px black;
+}
+.wrong-answer {
+    color: red;
+    font-size: 60pt;
+    margin-top: 50px;
+    text-shadow: -1px 0 black, 0 3px black, 3px 0 black, 0 -1px black;
+}
+.btn {
+    margin-bottom: 70px;
+    box-shadow: 1px 1px 5px 3px RGB(60, 179, 113);
+}
+.btn:hover {
+    background-color: #7FFFD4;
+    color: #fff;
+  
+}
+
+.blocked {
+pointer-events: none;
+}
+
+.reset {
+    color: #7FFFD4;
+    background-color: #000000;
+    border: none;
+}
+/* FFE600 book pages yellow */ 
