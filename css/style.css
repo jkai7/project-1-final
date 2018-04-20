@@ -31,7 +31,7 @@ body {
   background:linear-gradient(
     RGBA(60, 179, 113, .2),
     RGBA(127, 255, 212, 0)
-   ), url("./images/Book copy.jpg");
+   ), url("../images/Book copy.jpg");
   width:1440px;
   height:900px;
   background-size:cover; 

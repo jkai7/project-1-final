@@ -30,7 +30,7 @@ function blockStart(){ //prevents player from hiiting start after game initializ
 
 /* image of book */
 var bookImg = new Image();  // book image
-bookImg.src = "./images/bookVec2.svg"
+bookImg.src = "../images/bookVec2.svg"
 
 /* defines book */
 var book = ctx.drawImage(bookImg, bookX, bookY, bookWidth, bookHeight); //the book image
