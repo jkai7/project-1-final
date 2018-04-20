@@ -189,7 +189,7 @@ function reDraw() { // redraw random letter function
                document.getElementById("hidden2").style.visibility = "visible";
                document.getElementById("wrong-answer").style.visibility = "hidden";
 
-            if ( wrongLet >= 10){
+            if ( wrongLet >= 5){
                document.getElementById("correct-answer").style.visibility = "hidden";
             }
                 
