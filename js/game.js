@@ -188,8 +188,11 @@ function reDraw() { // redraw random letter function
                //alert("YOU LOSE!!! TRY AGAIN");
                document.getElementById("hidden2").style.visibility = "visible";
                document.getElementById("wrong-answer").style.visibility = "hidden";
-               //document.getElementById("correct-answer").style.visibility = "hidden";
 
+            if ( wrongLet >= 10){
+               document.getElementById("correct-answer").style.visibility = "hidden";
+            }
+                
                 //location.reload();
                 setTimeout(window.location.reload.bind(window.location), 3500);
                
